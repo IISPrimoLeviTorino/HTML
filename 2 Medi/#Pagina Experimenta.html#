@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+	<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+	<title>Experimenta 2016</title>
+
+	<style type="text/css">
+		span {
+			font-size: 20px;
+		}
+
+		hr {
+			color: #f00;
+			background-color: #f00;
+			height: 1px;
+		}
+	</style>
+
+<body background="img/blue.png">
+    <script type="text/javascript">
+        var picPaths = ['img/muscoli.jpg',
+        				'img/rapidita.jpg',
+        				'img/agilita.jpg',
+        				'img/sollecitazione.jpg',
+        				'img/Mausoleo_bela_rosin.jpg'];
+        var curPic = -1;
+        //preload the images for smooth animation
+        var imgO = new Array();
+        for(i=0; i < picPaths.length; i++) {
+            imgO[i] = new Image();
+            imgO[i].src = picPaths[i];
+        }
+
+        function swapImage() {
+            img = document.getElementById('imgBanner');
+	        curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+	        imgCont.src = imgO[curPic].src;
+            setTimeout(swapImage,6000);
+        }
+
+        window.onload=function() {
+            imgCont = document.getElementById('imgBanner');
+            swapImage();
+        }
+    </script>
+
+	<div style="text-align: center;">
+
+		<h1 style="font-size: 400%; font-family: 'Times New Roman Georgia'">
+		Mi muovo... dunque sono!
+		</h1>
+
+		<span style="font-style: italic;">
+		"Mi muovo... dunque sono!" questo è il
+		nome della mostra della fascia di Experimenta 2016<br>che si terrà dal 18
+		Novembre all'8 Aprile presso il Mausoleo della Bela Rosin, a Torino.
+		</span><br>
+
+		<span style="font-style: italic;">
+		Attraverso dei macchinari le persone
+		potranno provare con mano la
+		scienza del loro corpo in funzione.
+		</span><br>
+
+		<span style="font-style: italic;">
+		Con prove di resistenza, di riflessi,
+		di percezioni e altro si entrerà
+		nel mondo della funzionalità del corpo umano.
+		</span><br><br><br>
+
+		<div>
+			<img border="0" src="img/muscoli.jpg" width="600" height="450" id="imgBanner">
+		</div><br><br>
+
+		<span>
+		Il corpo dello sportivo funziona come quello di qualsiasi altra
+		persona. <br>
+		Mettete alla prova cervello e muscoli per individuare i
+		meccanismi che stanno alla base dell&#8217;apprendimento motorio.<br>
+		Attraverso mini-gare con se stessi e con altri visitatori sarà
+		possibile comprendere quante analogie vi sono tra l&#8217;attività sportiva e
+		le azioni che si compiono nella vita quotidiana.
+		</span><br><br><hr>
+
+		<h1 style="font-size: 250%">Obiettivi</h2>
+
+		<span>
+		far conoscere i meccanismi che presiedono al funzionamento del proprio corpo durante un'attività fisica.<br>
+		scoprire le analogie del coordinamento motorio tra la vita quotidiana e l'attività sportiva.<br>
+		conoscere il Mausoleo della Bela Rosin, edificio storico che accolse le spoglie di Rosa Vercellana, moglie morganatica di Vittorio Emanuele II, oggi gestito dalle biblioteche.
+		</span><br><br><hr>
+
+		<h1 style="font-size: 250%">Cosa troverai alla mostra</h1>
+
+		<span>
+		Lo spazio, all'interno del percorso, è articolato in quattro "isole" nei quali i visitatori possono mettere alla prova cervello e muscoli
+		per individuare i meccanismi che stanno alla base dell'apprendimento motorio e scoprire le analogie tra l'attività sportiva e le azioni 
+		che si compiono nella vita quotidiana: movimento, rapidità, reazione, agilità, precisione, sollecitazione, resistenza. Il pubblico potrà 
+		mettersi in gioco, sfidare altri visitatori, sperimentare in modo diretto e avvincente le reazioni straordinarie che il nostro corpo è 
+		capace di mettere in atto laddove venga sollecitato nel corso di un'attività sportiva.
+		</span><br><br>
+
+		<span style="font-weight: bold; font-size: 150%">Isola 1</span><br><br>
+		<span style="text-decoration: underline;">Muscoli</span><br><br>
+
+		<span>
+		Muovete le dita seguendo la sequenza di colori
+		dopo aver messo la mano sull&#8217;immagine dell&#8217;impronta e sfidate il vostro
+		compagno<br>
+		di pedana. Anche per un movimento piccolo ma
+		complesso, come muovere le dita, si usa la complessa interazione fra
+		sensi, cervello<br>
+		e muscoli esattamente come avviene nello sport.<br>
+		</span><br><br>
+
+		<div>
+			<img alt="" src="img/muscoli.jpg"><br>
+		</div><br><br>
+
+		<span style="font-weight: bold; font-size: 150%">Isola 2</span><br><br>
+		<span style="text-decoration: underline;"> Rapidità &amp; Reazione</span><br><br>
+
+		<span>
+		Una serie di segnali visivi da spegnere in
+		sequenza con azioni delle mani illustrano il concetto di velocità e
+		tempo di reazione.<br>
+		L&#8217;attenzione e la concentrazione sono fondamentali
+		per raggiungere un buon risultato. E il tifo di chi sta guardando può<br>
+		sicuramente aiutare&#8230;<br><br>
+		</span><br><br>
+
+		<div>
+			<img alt="" src="img/rapidita.jpg"><br>
+		</div><br><br>
+
+		<span style="font-weight: bold; font-size: 150%">Isola 3</span><br><br>
+		<span style="text-decoration: underline;">Agilità &amp; Reazione</span><br><br>
+
+		<span>
+		Appena udite il segnale sonoro dovrete girarvi di
+		180 gradi per scoprire quale pulsante premere. In pochi secondi dovrete
+		mettere alla prova rapidità, <br>
+		precisione e capacità di coordinamento.<br>
+		</span><br><br>
+
+		<div>
+			<img src="img/agilita.jpg"><br>
+		</div><br><br>
+
+		<span style="font-weight: bold; font-size: 150%">Isola 4</span><br><br>
+		<span style="text-decoration: underline;">Sollecitazione &amp; Resistenza</span><br><br>
+
+		<span>Quanto siete in grado di resistere in una scomoda
+		posizione?<br>
+		Sedetevi sullo sgabello e alzate le braccia secondo
+		le indicazioni: un sistema calcolerà il tempo di resistenza,
+		avvisandovi ai primi segni di cedimento&#8230; <br>
+		I muscoli vengono sollecitati a mantenere una determinata posizione
+		non usuale. Forza, resistenza, volontà sono alla base del risultato.<br>
+		<span><br><br>
+
+		<div>
+			<img src="img/sollecitazione.jpg"><br>
+		</div><br><br><hr>
+
+			<h1 style="font-size: 250%">Orari di visita</h1>
+
+		<style type="text/css">
+			table {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th, td {
+				border: 1px solid black;
+				padding-left: 1em;
+				padding-right: 1em;
+			}
+		</style>
+
+		<span>
+		La mostra sarà aperta dal <b><u>18 Novembre</b></u> all'<b><u>8 Aprile</b></u> 
+		nei seguenti orari:<br><br>
+		</span>
+
+		<!-- http://www.w3schools.com/tags/tag_table.asp -->
+		<table align="center">
+			  <tr>
+			    <th></th>
+			    <th>Lunedì</th>
+			    <th>Martedì</th>
+			    <th>Mercoledì</th>
+			    <th>Giovedì</th>
+			    <th>Venerdì</th>
+			    <th>Sabato</th>
+			    <th>Domenica</th>
+			  </tr>
+			  <tr>
+			  	<td style="font-weight: bold;">Mattino</td>
+			    <td>10:30 - 13:30 <b>(*)</b></td>
+			    <td>10:30 - 13:30 <b>(*)</b></td>
+			    <td>10:30 - 13:30 <b>(*)</b></td>
+			    <td>10:30 - 13:30 <b>(*)</b></td>
+			    <td>10:00 - 12:00</td>
+			    <td>10:00 - 12:00</td>
+			    <td>10:00 - 12:00</td>
+			  </tr>
+			  <tr>
+			  	<td style="font-weight: bold;">Pomeriggio</td>
+			    <td>-</td>
+			    <td>-</td>
+			    <td>-</td>
+			    <td>-</td>
+			    <td>14:30 - 17:00</td>
+			    <td>14:30 - 17:00</td>
+			    <td>14:30 - 17:00</td>
+			  </tr>
+		</table><br>
+
+		<span>
+		<b>(*)</b> dal 21 dicembre 2016 all'8 gennaio 2017, per le festività natalizie, la mostra resterà chiusa in tali giorni.<br><br>
+		</span>
+
+		<span>
+		<u>La mostra resterà chiusa, causa festività, nei seguenti giorni: 24 e 25 dicembre 2016, 6 gennaio 2017.</u>
+		<br><br>
+		La mostra è aperta a un pubblico di tutte le età e l'ingresso è <b>GRATUITO</b>.
+		</span><br><br><hr>
+
+	    <h1 style="font-size: 250%">Dove Siamo</h1>
+	    <span>
+	    Ci troviamo al <a href="https://it.wikipedia.org/wiki/Mausoleo_della_Bela_Rosin">Mausoleo della Bela Rosin - Str. Castello di Mirafiori 148 - TORINO</a>
+	    </span><br><br>
+	    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705.1863443559447!2d7.638545066776036!3d45.009792327942456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478812fe1d990501%3A0x7b4273ed9ffb53a4!2sMausoleo+della+Bela+Rosin!5e0!3m2!1sit!2sit!4v1478204800109" width="800" height="650" frameborder="0" style="border:0" allowfullscreen>
+	  	</iframe><br><br><hr>
+
+		<h1 style="font-size: 250%">Referenti Organizzativi</h1>
+		<span>
+		<i>Paolo Del Prete</i><br>
+		<a href="http://www.mrsntorino.it/" target="_new">Museo Regionale di Scienze Naturali</a><br>
+		<a href="https://www.experimenta.to.it" target="_new">progetto Experimenta</a><br><br>
+
+		<i>Gabriella Carré, Enza Proietti</i><br>
+		<a href="http://www.comune.torino.it/cultura/biblioteche/" target="_new">Biblioteca civica Centrale</a>
+		 - Ufficio Attività culturali<br>
+		via della Cittadella 5, Torino<br>
+		telefono 011 011298.55/58/36<br>
+		<a href="mailto:attivitaculturali_biblioteche@comune.torino.it" target="_new">
+			attivitaculturali_biblioteche@comune.torino.it
+		</a><br><br>
+
+		In Collaborazione con<br> <a href="http://www.istitutoprimolevi.gov.it/" target="_new">I.I.S. Primo Levi</a> - 
+		corso Unione Sovietica 490<br>
+
+		WebDesigner <i>3ASA</i>
+		</span><br><br>
+  	</div>
+
+</body>
+</head></html>

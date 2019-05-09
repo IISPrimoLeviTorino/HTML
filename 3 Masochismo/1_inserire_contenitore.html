@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+
+<head>
+	<title>Pagina 1</title>
+	<style type="text/css">
+		body {
+			background-color: lightskyblue;
+		}
+
+		button {
+			width: 80px;
+		}
+
+		h3 {
+			font-weight: bold;
+		}
+
+		.window-title {
+            color: darkblue;
+            text-align: center;
+			padding-bottom: 10%;
+        }
+
+		.center {
+			text-align: left;
+			vertical-align: middle;
+		}
+
+		.center-right {
+			text-align: right;
+			vertical-align: middle;
+		}
+
+		.center-screen {
+			max-width: 60%;
+			max-height: 50%;
+			overflow: visible;
+			margin: auto;
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			/* border: solid black; */
+		}
+		
+		.padded {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		.padded-top {
+			padding-top: 5%;
+		}
+
+		@media screen and (min-width: 1600px) {
+			.center-screen {
+				max-width: 40%;
+				max-height: 50%;
+				overflow: visible;
+				margin: auto;
+				position: absolute;
+				top: 0; left: 0; bottom: 0; right: 0;
+				/* border: solid black; */
+			}
+		}
+
+		@media screen and (max-width: 1000px) {
+			.center-screen {
+				max-width: 100%;
+				max-height: 70%;
+				overflow: visible;
+				margin: auto;
+				position: absolute;
+				top: 0; left: 0; bottom: 0; right: 0;
+				/* border: solid black; */
+			}
+
+			.window-title {
+				color: darkblue;
+				text-align: center;
+				padding-bottom: 5%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<form method="POST">
+		<div class="w3-container center-screen">
+			<div class="w3-cell-row window-title">
+				<h1>INSERIRE CONTENITORE</h1>
+			</div>
+			<div class="w3-cell-row">
+				<div class="w3-cell center">
+					<h3>Contenitore standard?</h3>
+				</div>
+				<div class="w3-cell center">
+					<input type="radio" name="Si-No" value="Si" checked="checked">SI</input>
+				</div>
+				<div class="w3-cell center">
+					<input type="radio" name="Si-No" value="No">NO</input>
+				</div>
+			</div>
+			<div class="w3-cell-row">
+				<div class="w3-cell center">
+					<h3>Inserire file foto:</h3>
+				</div>
+				<div class="w3-cell center-right">
+					<input type="text" name="File" style="width: 100%;"></input>
+				</div>
+				<div class="w3-cell center">
+					<button type="button" name="Sfoglia">Sfoglia</button>
+				</div>
+			</div>
+			<div class="w3-cell-row padded-top">
+				<div class="w3-cell center-right padded">
+					<button type="button" name="Invia">Invia</button>
+				</div>
+				<div class="w3-cell center padded">
+					<button type="button" name="Annulla">Annulla</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>

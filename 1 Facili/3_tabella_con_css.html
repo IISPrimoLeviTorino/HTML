@@ -1,0 +1,83 @@
+<html>
+
+    <head>
+        <title>Tabella + CSS</title>
+
+        <!-- zona CSS -->
+        <style type="text/css">
+            /* Questo è un commento in CSS */
+
+            /* Tutti i td avranno queste proprietà */
+            td {
+                font-size: 32px;
+                background-color: aqua;
+                text-align: center;
+                font-style: italic;
+            }
+
+            /* Tutti i tag a cui verrà assegnata
+             * questa classe avranno queste proprietà
+             */
+            .bordi-rossi {
+                border-color: red;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <!-- Tabella n.1 -->
+        <table border="2">
+            <tr>
+                <td><strong>Voti</strong></td>
+                <td>Andrea</td>
+                <td>Luca</td>
+                <td>Lorenzo</td>
+                <td>Mattia</td>
+                <td>Marco</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Matematica</td>
+                <td>10</td>
+                <td>8</td>
+                <!-- Sovrascrivi il colore sfondo solo per questo td usando CSS -->
+                <td style="background-color: seagreen;">2</td>
+                <td>8</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>10</td>
+                <td>5</td>
+                <td>9</td>
+                <td>-</td>
+            </tr>
+        </table>
+
+        <!-- 2 linee vuote di separazione -->
+        <br><br>
+
+        <!-- Tabella n.2 -->
+        <table border="2" class="bordi-rossi">
+            <tr>
+                <td colspan="6">QUALCOSA</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>10</td>
+                <td rowspan="2">100</td>
+                <td><i>Qualunque Cosa</i></td>
+                <td>3</td>
+                <td>Non so</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>2</td>
+                <td>Boh</td>
+                <td></td>
+                <td>test</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
