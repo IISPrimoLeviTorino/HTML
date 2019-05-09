@@ -16,7 +16,7 @@ Gli esempi sono divisi per difficolta. Si consiglia di partire dall'inizio.
 2. Modifica le cose, prova, rompi, ripare, sperimenta, ... (tranqui il tuo pc non rischia di implodere :))
 3. Prova ad aggiungere/migliorare l'aspetto della pagina fino a proprio gradimento
 4. Ripetere da punto 1 fino a quando si ha acquisito una buona conoscenza di base
-5. Crea pagine HTML da zerp!! (consulta link utili per dubbi)
+5. Crea pagine HTML da zero!! (consulta link utili per dubbi)
 6. Ripeti
 7. Crea pagine HTML-CSS da zero!! (consulta link utili per dubbi)
 8. Ripeti
